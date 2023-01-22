@@ -1,0 +1,35 @@
+programa {
+  funcao inicio() {
+    cadeia nome
+    inteiro idade, dias_vividos
+    inteiro dia, mes, ano
+    real n1, n2
+    real soma, multiplicacao
+    escreva ("Digite seu nome: ")
+    leia (nome)
+    escreva ("Digite sua idade: ")
+    leia (idade)
+    escreva ("Seu nome �: ", nome, " e voc� tem: ", idade, " anos\n")
+    escreva ("Digite seu dia de nascimento: ")
+    leia (dia)
+    escreva ("Digite seu m�s de nascimento: ")
+    leia (mes)
+    escreva ("Digite seu ano de nascimento: ")
+    leia (ano)
+    escreva ("Sua data de nascimento �: ", dia, "/", mes, "/", ano, "\n")
+    dias_vividos = idade * 365
+    escreva ("Voc� j� viveu: ", dias_vividos, " dias\n")
+    escreva("========================\n")
+    escreva ("Digite um n�mero: \n")
+    leia (n1)
+    escreva ("Digite mais um n�mero: \n")
+    leia (n2)
+    soma = n1 + n2
+    multiplicacao = n1 * n2
+    escreva ("O resultado da soma dos n�meros digitados �: ", soma, "\n")
+    escreva ("O resultado da multiplica��o dos n�meros digitados �: ", multiplicacao, "\n")
+    escreva("========================\n")
+    
+
+  }
+}
