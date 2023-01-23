@@ -1,0 +1,43 @@
+programa {
+  funcao inicio() {
+    inteiro num1
+    
+    escreva ("Digite um n�mero: ")
+    leia (num1)
+
+    se (num1 == 10) {
+      escreva ("O n�mero digitado �: ", num1)
+      }
+       
+    inteiro n1, n2, n3
+    escreva ("\n")
+    escreva ("Digite um n�mero: ")
+    leia (n1)
+
+    se ( n1== 10 ou n1 == 5)
+    escreva ("Voc� digitou 10 ou 5")
+
+    escreva ("\n")
+    escreva ("Digite outro n�mero: ")
+    leia (n2)
+    escreva ("Digite outro n�mero: ")
+    leia (n3)
+
+    se ( n2== 10 e n3 == 5)
+    escreva ("Voc� digitou 10 e 5")
+
+    inteiro valor1, valor2, soma
+
+    escreva ("\n")
+    escreva ("Digite o primeiro valor: ")
+    leia (valor1)
+    escreva ("Digite o segundo valor: ")
+    leia (valor2)
+
+    soma = valor1 + valor2
+    se (soma > 50) {
+      escreva ("O valor da soma � maior que 50")
+    }
+
+  }
+}
