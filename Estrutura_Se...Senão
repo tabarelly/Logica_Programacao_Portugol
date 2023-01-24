@@ -1,0 +1,63 @@
+programa {
+  funcao inicio() {
+
+    inteiro n1
+    
+    escreva ("Digite um numero: ")
+    leia (n1)
+
+    se(n1 >= 0) {
+      escreva ("Valor igual maior ou igual a zero.")
+     } senao {
+      escreva ("Valor menor que zero.")
+     }
+
+   inteiro idade
+
+    escreva ("\n")
+    escreva ("Informe a sua idade: ")
+    leia (idade)
+
+    se (idade >= 18) {
+      escreva ("Usu�rio maior de idade.")
+    } senao {
+      escreva ("Usu�rio menor de idade")
+    }
+
+    inteiro n1, n2, soma
+
+    escreva ("\n")
+    escreva ("Digite um numero: ")
+    leia (n1)
+    escreva ("Digite outro numero: ")
+    leia (n2)
+
+    soma = (n1 + n2)
+
+    se (soma == 50) {
+      escreva ("Valor igual a 50")
+    } senao {
+      escreva ("Valor diferente de 50")
+    }
+
+    inteiro media1, media2, media3, media_total
+
+    escreva ("\n")
+    escreva ("Digite a primeira media: ")
+    leia(media1)
+    escreva ("Digite a segunda media: ")
+    leia (media2)
+    escreva ("Digite a terceira media: ")
+    leia (media3)
+
+    media_total = (media1 + media2 + media3)/3
+    escreva ("A media final e igual: ", media_total, "\n")
+
+    se (media_total < media1 ou media_total < media2 ou media_total < media3) {
+      escreva ("A media parcial e maior que a media total")
+    } senao {
+      escreva ("A media total maior que a media parcial")
+    }
+
+  }
+}
