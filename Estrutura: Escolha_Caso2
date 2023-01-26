@@ -1,0 +1,52 @@
+programa {
+  funcao inicio() {
+    
+    escreva ("1. Soma \n")
+    escreva ("2. Multiplica��o \n")
+    escreva ("3) Verifica idade \n")
+    escreva ("****************** \n")
+
+    inteiro n1, n2, ntotal
+    inteiro soma, multiplicacao, idade, resultado
+    cadeia nome
+    escreva ("Digite uma op��o acima: ")
+    leia (ntotal)
+        
+    escolha (ntotal)
+
+    {
+    caso 1: ntotal == 1
+    escreva ("Digite um n�mero: ")
+    leia (n1)
+    escreva ("Digite outro n�mero: ")
+    leia (n2)
+    soma = n1 + n2
+    escreva ("O resultado de: " , n1 ,  " + " , n2, " � igual a: ", soma)
+    pare
+
+    caso 2: ntotal == 2
+    escreva ("Digite um n�mero: ")
+    leia (n1)
+    escreva ("Digite outro n�mero: ")
+    leia (n2)
+    multiplicacao = n1 * n2
+    escreva ("O resultado de: " , n1 ,  " x " , n2, " � igual a: ", multiplicacao)
+    pare
+
+    caso 3: ntotal == 3
+    escreva ("Digite seu nome: ")
+    leia (nome)
+    escreva ("Digite sua idade: ")
+    leia (idade)
+      se(idade >= 18){
+		  escreva("Seu nome �: ", nome, ", sua idade �: ", idade, ", Voce � maior de idade.")
+		  }senao {
+		  escreva("Seu nome �: ", nome, ", sua idade �: ", idade, ", Voce � menor de idade.")
+      }
+    pare
+
+    caso contrario
+    escreva ("Escolha uma op��o v�lida.")
+
+  }
+}
