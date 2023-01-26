@@ -1,0 +1,40 @@
+programa {
+  funcao inicio() {
+    
+    inteiro valor
+    escreva ("Escreva um valor: ")
+    leia (valor)
+
+    se (valor > 0) {
+      escreva ("Valor positivo")
+    } senao se (valor <0) {
+      escreva ("Valor negativo")
+    } senao {
+      escreva ("Valor nulo")
+    }
+
+    escreva ("\n")
+    escreva ("=======================")
+    escreva ("\n")
+
+    inteiro n1, n2
+    escreva ("Digite um n�mero: ")
+    leia (n1)
+    escreva ("Digite outro n�mero: ")
+    leia (n2)
+
+    se (n1 == n2) {
+      escreva ("N�meros iguais.")
+    } senao se (n1 > n2) {
+      escreva ("O primeiro n�mero � maior do que o segundo.") 
+    }  senao {
+        escreva ("O segundo n�mero � maior do que o primeiro")
+    }
+    
+    escreva ("\n")
+    escreva ("=======================")
+    escreva ("\n")
+
+
+  }
+}
