@@ -1,0 +1,39 @@
+programa {
+  funcao inicio() {
+    
+    cadeia opcao1, opcao2, opcao3
+    escreva ("1) Elogio \n")
+    escreva ("2) Ofensa \n")
+    escreva ("3) Sair \n")
+    escreva ("****************** \n")
+
+    inteiro numero
+
+    escreva ("Escolha uma das op��es acima: ")
+    leia (numero)
+    escolha (numero)
+
+    {
+      caso 1: numero == 1
+      escreva ("1) Elogio \n")
+      escreva ("Voc� entrou em um menu")
+      pare
+
+      caso 2: numero == 2
+      escreva ("2) Ofensa \n")
+      escreva ("Voc� entrou em um menu")
+      pare
+
+      caso 3: numero == 3
+      escreva ("3) Sair \n")
+      escreva ("Voc� entrou em um menu")
+      pare
+
+      caso contrario
+      escreva ("Por favor, digite uma op��o v�lida.")
+
+    }
+
+
+  }
+}
