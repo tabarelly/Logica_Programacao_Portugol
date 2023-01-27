@@ -1,0 +1,52 @@
+programa {
+  funcao inicio() {
+    
+    inteiro opcao, n1, n2
+    real calculo
+
+    escreva ("*******************\n")
+    escreva ("--- Calculadora ---\n")
+    escreva ("*******************\n")
+
+		escreva ("Digite um numero: ")
+		leia (n1)
+		escreva ("Digite outro numero: ")
+		leia (n2)
+
+    escreva ("***Escolha uma op��o abaixo: ***  \n")
+		escreva ("1) Soma \n")
+		escreva ("2) Subtra��o \n")
+		escreva ("3) Multiplica��o \n")
+		escreva ("4) Divis�o \n")
+
+    escreva ("Digite a op��o desejada: ")
+    leia (opcao)
+
+    escolha (opcao)
+    caso 1: 
+		  calculo = n1 + n2
+		  escreva("O resultado da soma �: " + calculo)
+		  pare
+
+		caso 2: 
+		  calculo = n1 - n2
+		  escreva("O resultado da subtra��o �: " + calculo)
+		  pare
+
+		caso 3:
+      calculo = n1 * n2
+		  escreva("O resultado da multiplica��o �: " + calculo)
+		  pare
+
+		caso 4: 
+		  calculo = n1 / n2
+		  escreva("O resultado da divis�o �: " + calculo)
+		  pare
+
+		caso contrario:
+		  escreva("Voce digitou uma op��o inv�lida")
+		}
+		
+
+  }
+}
