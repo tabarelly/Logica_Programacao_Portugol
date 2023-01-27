@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    
+    inteiro contador1 = 1
+
+    enquanto (contador1 <= 10) {
+      escreva ("Hello World!\n")    
+      contador1 ++  
+    }
+    
+    // OU \\
+
+    escreva ("\n")
+    escreva ("******************\n")
+    escreva ("\n")
+    inteiro contador = 1
+    enquanto (contador <= 10) {
+      escreva ("Hello World!\n")    
+      contador = contador + 1  
+    }
+
+
+  }
+}
