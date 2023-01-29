@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+
+    inteiro contador = 2
+
+    enquanto (contador >1)
+    {
+      escreva ("Digite um n�mero at� acertar para sair da execu��o autom�tica ")
+      leia (contador)
+    }
+    
+    escreva ("\nVoc� saiu da execu��o autom�tica.\n")
+  }
+}
