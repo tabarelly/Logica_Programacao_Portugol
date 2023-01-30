@@ -1,0 +1,51 @@
+programa {
+  funcao inicio() {
+
+   inteiro contador = 4, n1, n2
+   real soma, subtracao, multiplicacao, divisao
+
+   escreva ("Digite um n�mero: ")
+   leia (n1)
+   escreva ("Digite outro n�mero: ")
+   leia (n2)
+
+   enquanto (contador != 0) {
+    escreva ("\n*******************")
+    escreva ("\n  ---- MENU ----\n")
+    escreva ("*******************")
+    escreva ("\n")
+
+    escreva (" 1) Soma\n")
+    escreva (" 2) Subtra��o\n")
+    escreva (" 3) Multiplica��o\n")
+    escreva (" 4) Divis�o\n")
+    escreva (" 0 SAIR\n")
+    leia (contador)
+
+    escolha (contador){
+      caso 1:
+      soma = n1 + n2
+      escreva ("O resultado da soma �: " + soma + "\n")
+      pare
+      caso 2:
+      subtracao = n1 - n2
+      escreva ("O resultado da subtra��o �: " + subtracao + "\n")
+      pare
+      caso 3:
+      multiplicacao = n1 * n2
+      escreva ("O resultado da multiplica��o �: " + multiplicacao + "\n")
+      pare
+      caso 4:
+      divisao = n1 / n2
+      escreva ("O resultado da divis�o �: " + divisao + "\n")
+      pare
+      caso contrario:
+      escreva ("N�o identificamos a a op��o digitada.")
+      
+    }
+    
+   }
+    
+  }
+  
+}
