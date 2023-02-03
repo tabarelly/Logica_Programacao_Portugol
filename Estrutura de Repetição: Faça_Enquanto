@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    
+    inteiro menu
+
+    
+    faca {
+      escreva ("---- MENU----\n")
+      escreva ("0) Primeira Op��o!\n")
+      escreva ("1) Segunda Op��o!\n")
+      escreva ("\nDigite uma op��o: \n")
+      leia (menu)
+      } enquanto (menu == 0 ou menu == 1)
+      escreva ("\nVoc� saiu da estrutura Fa�a...Enquanto\n")
+  }
+}
